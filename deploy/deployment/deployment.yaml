@@ -22,7 +22,7 @@ spec:
       annotations:
         prometheus.io/scrape: "true"
         prometheus.io/port: "7000"
-    spec:
+   spec:
       serviceAccountName: cleanup-operator
       containers:
       - args:
